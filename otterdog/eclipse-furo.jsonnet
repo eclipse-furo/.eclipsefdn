@@ -42,9 +42,7 @@ orgs.newOrg('technology.furo', 'eclipse-furo') {
       allow_merge_commit: true,
       allow_update_branch: false,
       code_scanning_default_languages+: [
-        "javascript",
         "javascript-typescript",
-        "typescript"
       ],
       code_scanning_default_setup_enabled: true,
       delete_branch_on_merge: false,
